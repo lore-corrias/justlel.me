@@ -11,53 +11,38 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
- name = "CTF Writeups!"
- pre = "bug"
+ name = "CTF Writeups"
+ pre = "ctf"
  pageRef = "posts/ctf"
+ weight = 10
+
+[[main]]
+ name = "Home Lab"
+ pageRef = "posts/lab"
  weight = 20
 
 [[main]]
- name = "Home Lab (Work in Progress)"
- pre = "lightbulb"
- pageRef = "posts/lab"
+ name = "`whoami`"
+ pageRef = "about"
+ weight = 30
 
 [[main]]
- name = "whoami"
- pre = "circle-info"
- pageRef = "about"
+ identifier = "github"
+ pre = "github"
+ url = "https://github.com/lore-corrias"
+ weight = 600
 
-# [[main]]
- # name = "Parent"
- # weight = 20
+[[main]]
+ identifier = "hackthebox"
+ pre = "hackthebox"
+ url = "https://app.hackthebox.com/users/884312"
+ weight = 600
 
-#[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
-
-#[[main]]
-#  name = "example sub-menu 2"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
-
-#[[subnavigation]]
-#  name = "An interesting topic"
-#  pageRef = "tags/interesting-topic"
-#  weight = 10
-
-
-
-#[[main]]
-#  name = "Categories"
-#  pageRef = "categories"
-#  weight = 20
-
-#[[main]]
-#  name = "Tags"
-#  pageRef = "tags"
-#  weight = 30
+[[main]]
+ identifier = "tryhackme"
+ pre = "tryhackme"
+ url = "https://tryhackme.com/p/justlel"
+ weight = 600
 
 
 # -- Footer Menu --

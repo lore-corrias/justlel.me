@@ -11,7 +11,12 @@ title = 'HTB Why Lambda - Writeup'
 | ----------- | ----------- |
 | 📊 _Difficulty_  | **Hard** |
 | 📝 _Solves_   | _84_       |
-| ❓ _Topics_ | `File Upload`, `XSS`, `CSRF`, `RCE` |
+| ❓ _Topics_ | {{< keywordList >}}
+{{< keyword >}}File Upload{{< /keyword >}}
+{{< keyword >}}XSS{{< /keyword >}}
+{{< keyword >}}CSRF{{< /keyword >}}
+{{< keyword >}}RCE{{< /keyword >}}
+{{< /keywordList >}}|
 | 🕐 _Time spent_ | **+4h** |
 | 🎖️ _Reviews_ | ⭐⭐⭐⭐ |
 
